@@ -7,16 +7,16 @@ class HomePage extends StatefulWidget {
   const HomePage({super.key});
 
   @override
+  // ignore: library_private_types_in_public_api
   _HomePageState createState() => _HomePageState();
 }
 
 class _HomePageState extends State<HomePage> {
-  bool _started = false;
-  List<Offset> _positions = [
+  final List<Offset> _positions = [
     const Offset(20, 20), // Initial position for the draggable object
   ];
 
-  List<String> _textValues = [
+  final List<String> _textValues = [
     'Element 1',
   ];
 

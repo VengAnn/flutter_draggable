@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_draggable/home_1.dart';
 import 'package:flutter_draggable/home_page.dart';
 
 void main() {
@@ -15,7 +16,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true,
       ),
-      home: const HomePage(),
+      //home: const HomePage(),
+      home: const Home1(),
     );
   }
 }
